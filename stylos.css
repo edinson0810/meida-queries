@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background: purple;
+}
+
+@media(max-width: 900px) {
+  body {
+    background: black;
+  }
+}
+
+@media(max-width: 500px) {
+  body {
+    background: white;
+  }
+}
