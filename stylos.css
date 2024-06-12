@@ -9,9 +9,19 @@ body {
   background: purple;
 }
 
-@media(max-width: 900px) {
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 6rem;
+}
+
+/* @media(max-width: 900px) {
   body {
     background: black;
+  }
+
+  h1 {
+    font-size: 2rem;
   }
 }
 
@@ -19,4 +29,8 @@ body {
   body {
     background: white;
   }
-}
+
+  h1 {
+    color: blue;
+  }
+} */
